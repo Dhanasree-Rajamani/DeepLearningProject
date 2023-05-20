@@ -66,7 +66,25 @@ Steps to use:
 
 ## Gradio UI
 
-Gradio UI has been developed for the custom trained YOLOv7 model and Pretrained YOLOv7 model.
+Gradio UI has been developed for the custom trained YOLOv7 model and Pretrained YOLOv7 model. The custom trained model was able to identify and label more items(such as meat, cheese, yogurt etc.) than the pretrained model.
 
 Snapshots of the application : 
+
+Custom trained model :
+
+![ss4](https://github.com/Dhanasree-Rajamani/DeepLearningProject/blob/main/Project/images_ds/ss9.png)
+
+![ss5](https://github.com/Dhanasree-Rajamani/DeepLearningProject/blob/main/Project/images_ds/ss10.png)
+
+![ss7](https://github.com/Dhanasree-Rajamani/DeepLearningProject/blob/main/Project/images_ds/ss13.png)
+
+![ss8](https://github.com/Dhanasree-Rajamani/DeepLearningProject/blob/main/Project/images_ds/SS8.png)
+
+Pretrained Model : 
+
+![ss1](https://github.com/Dhanasree-Rajamani/DeepLearningProject/blob/main/Project/images_ds/ss2.png)
+
+![ss2](https://github.com/Dhanasree-Rajamani/DeepLearningProject/blob/main/Project/images_ds/ss4.png)
+
+![[ss6](https://github.com/Dhanasree-Rajamani/DeepLearningProject/blob/main/Project/images_ds/ss12.png)
 
