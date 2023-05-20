@@ -86,5 +86,5 @@ Pretrained Model :
 
 ![ss2](https://github.com/Dhanasree-Rajamani/DeepLearningProject/blob/main/Project/images_ds/ss4.png)
 
-![[ss6](https://github.com/Dhanasree-Rajamani/DeepLearningProject/blob/main/Project/images_ds/ss12.png)
+![ss6](https://github.com/Dhanasree-Rajamani/DeepLearningProject/blob/main/Project/images_ds/ss12.png)
 
