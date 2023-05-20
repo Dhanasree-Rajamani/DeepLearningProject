@@ -64,3 +64,9 @@ Steps to use:
 ![image8](https://github.com/SravaniThota96/DeepLearning/assets/111466561/34d016b3-1717-4c6f-9895-bc04df282e8f)
 
 
+## Gradio UI
+
+Gradio UI has been developed for the custom trained YOLOv7 model and Pretrained YOLOv7 model.
+
+Snapshots of the application : 
+
