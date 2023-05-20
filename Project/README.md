@@ -26,7 +26,7 @@ Monitor the training progress and adjust the parameters as needed.
 
 ## Object Detection
 - Once training is complete, locate the best weights file (best.pt) in the runs/exp/ directory.
-- Since the weights file is too big to push to git. I have copied it to drive. Please find link here:
+- Since the weights file is too big to push to git. We have copied it to drive. Please find link here:
 `https://drive.google.com/file/d/1TeOIEfY2de_mEEObZjReO9VIcOt0ilVA/view?usp=sharing`
 - Use the best weights to perform object detection on a test image using the following command:
 `python detect.py --weights runs/train/exp/weights/best.pt --img 640 --conf 0.25 --source test.jpg`
