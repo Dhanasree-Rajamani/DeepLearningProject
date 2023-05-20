@@ -12,6 +12,9 @@ This project utilizes the YOLOv7 deep learning model for object detection. The Y
 - Integration with Roboflow for labeling
 - Real-time detection in a Flask application
 - Support for image and video uploads
+- Compare the object detection accuracy when using a pretrained YOLOv7 model vs. using our custom dataset trained model
+- Gradio UI for user to Input the Search Item and obtain object detection Output(for pretrained and custom model) 
+- Web UI using flask to perform object detection(for custom model)
 
 ## Installation
 - Clone the Repository: git clone https://github.com/username/YOLOv7.git
