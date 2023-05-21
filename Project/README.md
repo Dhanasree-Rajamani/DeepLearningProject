@@ -4,21 +4,21 @@ The application helps users by scanning products on a shelf, and highlighting th
 
 ## Description
 
-This project utilizes the YOLOv7 deep learning model for object detection. The YOLOv7 model is trained on a custom dataset using the Grocery dataset, labeled using Roboflow. The trained model is then used to perform object detection on test images and videos. Additionally, a Flask application has been developed to facilitate uploading images and videos for real-time detection. We have also experimented with pretrained, custom trained YOLOv7 and YOLOv8 models for this application.
+This project utilizes the YOLOv7 deep learning model for object detection. The YOLOv7 model is finetuned with a custom dataset - a Grocery dataset, labeled using Roboflow. The finetuned model is then used to perform object detection on test images and videos. Additionally, a Flask application has been developed to facilitate uploading images and videos for real-time detection. We have also experimented with pretrained, custom trained YOLOv7 and YOLOv8 models for this application.
 
 ## Features
 - Object detection using the YOLOv7 model
-- Training on a custom dataset
+- Fine-tune model on a custom dataset
 - Integration with Roboflow for labeling
 - Real-time detection in a Flask application
 - Support for image and video uploads
 - Displays if the item is available or not, and highlight the item if available. 
-- Compare the object detection accuracy when using a pretrained YOLOv7 model vs. using our custom dataset trained model
+- Compare the object detection accuracy when using a pretrained YOLOv7 model vs. finetuned model
 - Using another OCR pre-trained model to extract text from product’s packaging. 
 - Two models to enhance our output to the user. 
 - Then we leverage Langchain to get more information about the product for the user/buyer.
 - Use the extracted text from image as input variable in our langchain prompt template.
-- Gradio UI for user to Input the Search Item and obtain object detection Output(for pretrained and custom model) 
+- Gradio UI for user to Input the Search Item and obtain object detection Output(for pretrained and custom finetuned model) 
 - Web UI using flask to perform object detection(for custom model)
 
 ## Installation
@@ -30,7 +30,7 @@ This project utilizes the YOLOv7 deep learning model for object detection. The Y
 Monitor the training progress and adjust the parameters as needed.
 
 ## Object Detection
-- Once training is complete, locate the best weights file (best.pt) in the runs/exp/ directory.
+- Once training(fine-tuning) is complete, locate the best weights file (best.pt) in the runs/exp/ directory.
 - We have saved the weights after training the model, so model needs to be trained only once. The weights can then be used in the application.
 - Since the weights file is too big to push to git. We have copied it to drive. Please find link here:
 `https://drive.google.com/file/d/1TeOIEfY2de_mEEObZjReO9VIcOt0ilVA/view?usp=sharing`
@@ -77,7 +77,7 @@ Steps to use:
 
 ## Gradio UI
 
-Gradio UI has been developed for the custom trained YOLOv7 model and Pretrained YOLOv7 model. The custom trained model was able to identify and label more items(such as meat, cheese, yogurt etc.) than the pretrained model.
+Gradio UI has been developed for the fine-tuned YOLOv7 model and Pretrained YOLOv7 model. The fine-tuned model was able to identify and label more items(such as meat, cheese, yogurt etc.) than the pretrained model.
 
 Snapshots of the application : 
 
