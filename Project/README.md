@@ -14,6 +14,10 @@ This project utilizes the YOLOv7 deep learning model for object detection. The Y
 - Support for image and video uploads
 - Displays if the item is available or not, and highlight the item if available. 
 - Compare the object detection accuracy when using a pretrained YOLOv7 model vs. using our custom dataset trained model
+- Using another OCR pre-trained model to extract text from product’s packaging. 
+- Two models to enhance our output to the user. 
+- Then we leverage Langchain to get more information about the product for the user/buyer.
+- Use the extracted text from image as input variable in our langchain prompt template.
 - Gradio UI for user to Input the Search Item and obtain object detection Output(for pretrained and custom model) 
 - Web UI using flask to perform object detection(for custom model)
 
@@ -32,6 +36,11 @@ Monitor the training progress and adjust the parameters as needed.
 `https://drive.google.com/file/d/1TeOIEfY2de_mEEObZjReO9VIcOt0ilVA/view?usp=sharing`
 - Use the best weights to perform object detection on a test image using the following command:
 `python detect.py --weights runs/train/exp/weights/best.pt --img 640 --conf 0.25 --source test.jpg`
+
+## Text Detection
+- `!pip install easyocr`
+- it is a ready to use out-of-the box model
+- 
 
 ## Flask Application
 - Set up a virtual environment and install the necessary dependencies:
