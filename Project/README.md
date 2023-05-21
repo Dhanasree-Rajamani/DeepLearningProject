@@ -4,7 +4,7 @@ The application helps users by scanning products on a shelf, and highlighting th
 
 ## Description
 
-This project utilizes the YOLOv7 deep learning model for object detection. The YOLOv7 model is trained on a custom dataset using the Grocessory dataset, labeled using Roboflow. The trained model is then used to perform object detection on test images and videos. Additionally, a Flask application has been developed to facilitate uploading images and videos for real-time detection. We have also experimented with pretrained, custom trained YOLOv7 and YOLOv8 models for this application.
+This project utilizes the YOLOv7 deep learning model for object detection. The YOLOv7 model is trained on a custom dataset using the Grocery dataset, labeled using Roboflow. The trained model is then used to perform object detection on test images and videos. Additionally, a Flask application has been developed to facilitate uploading images and videos for real-time detection. We have also experimented with pretrained, custom trained YOLOv7 and YOLOv8 models for this application.
 
 ## Features
 - Object detection using the YOLOv7 model
