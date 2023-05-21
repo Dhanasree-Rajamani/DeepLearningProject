@@ -2,6 +2,11 @@
 
 The application helps users by scanning products on a shelf, and highlighting the item the user is looking for. User gives in a text of a specific product they are looking for and the object detection model will detect all the items on the shelf, and highlight the product that the user needs. 
 
+Demo : https://drive.google.com/drive/folders/1AA9J4qHG1m5WykN7Bazo48uJy_mr6ikT?usp=sharing
+
+Slides : https://docs.google.com/presentation/d/1cZ0Cj4Qh1e7HDCBJL4ttllNZ8EKiyhUoSqTaFEUsKbw/edit?usp=sharing
+
+
 ## Description
 
 This project utilizes the YOLOv7 deep learning model for object detection. The YOLOv7 model is finetuned with a custom dataset - a Grocery dataset, labeled using Roboflow. The finetuned model is then used to perform object detection on test images and videos. Additionally, a Flask application has been developed to facilitate uploading images and videos for real-time detection. We have also experimented with pretrained, custom trained YOLOv7 and YOLOv8 models for this application.
