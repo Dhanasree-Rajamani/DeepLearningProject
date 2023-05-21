@@ -1,10 +1,10 @@
-# Object-Detection-Web-App-Using-YOLOv7-and-Flask
+# Shop-assist : Object-Detection-Web-App-Using-YOLOv7-and-Flask
 
-
+The application helps users by scanning products on a shelf, and highlighting the item the user is looking for. User gives in a text of a specific product they are looking for and the object detection model will detect all the items on the shelf, and highlight the product that the user needs. 
 
 ## Description
 
-This project utilizes the YOLOv7 deep learning model for object detection. The YOLOv7 model is trained on a custom dataset using the Grocessory dataset, labeled using Roboflow. The trained model is then used to perform object detection on test images and videos. Additionally, a Flask application has been developed to facilitate uploading images and videos for real-time detection.
+This project utilizes the YOLOv7 deep learning model for object detection. The YOLOv7 model is trained on a custom dataset using the Grocessory dataset, labeled using Roboflow. The trained model is then used to perform object detection on test images and videos. Additionally, a Flask application has been developed to facilitate uploading images and videos for real-time detection. We have also experimented with pretrained, custom trained YOLOv7 and YOLOv8 models for this application.
 
 ## Features
 - Object detection using the YOLOv7 model
@@ -12,6 +12,7 @@ This project utilizes the YOLOv7 deep learning model for object detection. The Y
 - Integration with Roboflow for labeling
 - Real-time detection in a Flask application
 - Support for image and video uploads
+- Displays if the item is available or not, and highlight the item if available. 
 - Compare the object detection accuracy when using a pretrained YOLOv7 model vs. using our custom dataset trained model
 - Gradio UI for user to Input the Search Item and obtain object detection Output(for pretrained and custom model) 
 - Web UI using flask to perform object detection(for custom model)
@@ -26,6 +27,7 @@ Monitor the training progress and adjust the parameters as needed.
 
 ## Object Detection
 - Once training is complete, locate the best weights file (best.pt) in the runs/exp/ directory.
+- We have saved the weights after training the model, so model needs to be trained only once. The weights can then be used in the application.
 - Since the weights file is too big to push to git. We have copied it to drive. Please find link here:
 `https://drive.google.com/file/d/1TeOIEfY2de_mEEObZjReO9VIcOt0ilVA/view?usp=sharing`
 - Use the best weights to perform object detection on a test image using the following command:
