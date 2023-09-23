@@ -1,3 +1,7 @@
+<p align="center">
+  <img width="300" alt="shopassist-logo" src="https://github.com/Dhanasree-Rajamani/DeepLearningProject/assets/111466424/672eefbe-90d3-4d3f-ae7d-4e5635626d50">
+</p>
+
 # Shop-assist : Object-Detection-Web-App-Using-YOLOv7-and-Flask
 
 The application helps users by scanning products on a shelf, and highlighting the item the user is looking for. User gives in a text of a specific product they are looking for and the object detection model will detect all the items on the shelf, and highlight the product that the user needs. 
